@@ -25,6 +25,11 @@ div {
     margin: 15px 10px;
 }
 
+/* Stile alternativo */
+#alternative-style {
+    margin: 5% 15%;
+}
+
 /* Autore e data articolo */
 h4,
 h6 {
