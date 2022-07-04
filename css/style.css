@@ -77,3 +77,8 @@ th {
 th:last-of-type {
     width: 50%;
 }
+
+/* Colorazione alternate delle righe della tabella */
+tbody>tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
