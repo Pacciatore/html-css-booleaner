@@ -55,3 +55,8 @@ a {
 .list {
     margin: 25px;
 }
+
+/* Tabella */
+table {
+    border-collapse: collapse;
+}
