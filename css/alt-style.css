@@ -1,0 +1,108 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Intestazione */
+header {
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+
+    height: 175px;
+}
+
+/* Immagine scritta 'The Booleaner' */
+header img {
+    width: 250px;
+    margin: 100px 10px;
+}
+
+/* Applicazione di margini per le varie sezioni */
+div {
+    margin: 15px 10px;
+}
+
+/* Autore e data articolo */
+h4,
+h6 {
+    color: grey;
+}
+
+/* Data articolo */
+h6 {
+    font-weight: 400;
+}
+
+/* Collegamento autore */
+a {
+    text-decoration: none;
+}
+
+/* Crediti immagini */
+.photo-credits {
+    font-size: small;
+}
+
+/* Evidenziatore */
+.highlight {
+    background-color: yellow;
+}
+
+/* Lista */
+.list {
+    margin: 25px;
+}
+
+/* Tabella */
+table {
+    border-collapse: collapse;
+}
+
+/* Intestazione tabella */
+thead>tr {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+/* Larghezza delle prime due colonne */
+th {
+    width: 25%;
+}
+
+/* Larghezza ultima colonna */
+th:last-of-type {
+    width: 50%;
+}
+
+/* Colorazione alternate delle righe della tabella */
+tbody>tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+/* Primo articolo suggerito */
+div[class^=suggestion] {
+    margin-left: 0px;
+    width: 270px;
+    height: 200px;
+    color: white;
+}
+
+/* Immagine primo suggerimento */
+.suggestion1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+/* Immagine secondo suggerimento */
+.suggestion2 {
+    background-image: url(../img/graph.jpg);
+}
+
+/* Titolo articoli suggeriti */
+h3 {
+    padding: 10px 10px;
+    font-size: x-large;
+}
