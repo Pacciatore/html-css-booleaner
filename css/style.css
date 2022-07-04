@@ -20,15 +20,9 @@ header img {
     margin: 100px 10px;
 }
 
-/* Applicazione di margini verticali per le varie sezioni */
+/* Applicazione di margini per le varie sezioni */
 div {
-    margin-top: 15px;
-}
-
-/* Applicazione margini laterali */
-div,
-main {
-    margin: 10px;
+    margin: 15px 10px;
 }
 
 /* Autore e data articolo */
@@ -55,4 +49,9 @@ a {
 /* Evidenziatore */
 .highlight {
     background-color: yellow;
+}
+
+/* Lista */
+.list {
+    margin: 25px;
 }
