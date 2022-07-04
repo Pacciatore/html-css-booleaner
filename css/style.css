@@ -19,3 +19,19 @@ header img {
     width: 250px;
     margin: 100px 10px;
 }
+
+/* Autore e data articolo */
+h4,
+h6 {
+    color: grey;
+}
+
+/* Data articolo */
+h6 {
+    font-weight: 400;
+}
+
+/* Collegamento autore */
+a {
+    text-decoration: none;
+}
