@@ -60,3 +60,20 @@ a {
 table {
     border-collapse: collapse;
 }
+
+/* Intestazione tabella */
+thead>tr {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+/* Larghezza delle prime due colonne */
+th {
+    width: 25%;
+}
+
+/* Larghezza ultima colonna */
+th:last-of-type {
+    width: 50%;
+}
