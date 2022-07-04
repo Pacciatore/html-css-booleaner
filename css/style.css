@@ -1,5 +1,21 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Intestazione */
+header {
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+
+    height: 175px;
+}
+
+/* Immagine scritta 'The Booleaner' */
+header img {
+    width: 250px;
+    margin: 100px 10px;
 }
